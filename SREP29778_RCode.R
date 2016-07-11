@@ -6,11 +6,6 @@
 #Response variables include coral cover, macroalgae cover, 
 #Human population density comes from the SEDAC webpage
 
-## SET WD and load data for JB's computer###
-setwd("~/Dropbox/JB/Manuscripts/Coral Reef papers/Coral threats-reef isolation paper/R Code and Data Analysis")
-
-## SET WD and load data for AV's computer ###
-setwd("C:/Users/avaldivia/Documents/Coral threats-reef isolation paper/R Code and Data Analysis")
 
 #Load World data
   world <- read.csv(file = "World.csv", header = TRUE, stringsAsFactors = TRUE)
